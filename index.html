@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./assets/aluraicono.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="presentacion">
+        <div class="custom-cursor" id="cursor"></div>
+        <section class="aluraicon">
+            <img class="aluraicon_img" src="./assets/aluraicono.png" alt="buscador">
+        </section>
+        <section class="ingresetexto">
+            <textarea id="texto" style="color: #0A3871;" class="textarea_texto" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="advertencia">
+                <img class="adv" src="./assets/adv.png" alt="Advertencia">
+                <p class="adv_texto">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="Encriptar" onclick="encriptarTexto()">Encriptar</button>
+                <button class="Desencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+            </div>
+        </section>
+        <section id="resultado" class="texto_encriptado">
+            <div class="texto_encriptado_cuadro">
+                <img class="img_encriptado" src="./assets/txt_encriptado.png" alt="buscador">
+                <div class="img_txt">
+                    <p class="img_txt_1">Ningún mensaje fue encontrado</p>
+                    <p class="img_txt_2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./Scripts/Encriptador.js"></script>
+</body>
+</html>
