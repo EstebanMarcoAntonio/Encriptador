@@ -1,31 +1,30 @@
 # Encriptador y Desencriptador
 
-¡Bienvenido al proyecto de **Encriptador y Desencriptador**! Esta es una aplicación web sencilla que permite encriptar y desencriptar mensajes de texto de acuerdo a un algoritmo específico. Es ideal para asegurar tus mensajes de manera básica.
+¡Bienvenido al proyecto de **Encriptador y Desencriptador**! Esta aplicación web sencilla te permite encriptar y desencriptar mensajes de texto. Es ideal para asegurar tus mensajes de manera básica.
 
 ## Características
 
 - **Encriptación**: Convierte tu texto en un mensaje encriptado.
-- **Desencriptación**: Convierte tu mensaje encriptado de vuelta a su forma original.
-- **Interfaz simple y amigable**: Diseño minimalista y fácil de usar.
-- **Compatibilidad responsiva**: Adaptado para funcionar en múltiples dispositivos.
-- **Aviso de caracteres**: Solo se permite ingresar letras minúsculas y sin acentos.
+- **Desencriptación**: Revierte un mensaje encriptado a su forma original.
+- **Copiar Resultado**: Permite copiar el texto encriptado o desencriptado al portapapeles con un solo clic.
+- **Interfaz Intuitiva**: Diseño minimalista y fácil de usar.
+- **Compatibilidad Responsiva**: Se adapta a múltiples dispositivos.
+- **Advertencia de Caracteres**: Se muestra una advertencia si intentas encriptar texto que contiene caracteres no permitidos (debes usar solo letras minúsculas y sin acentos).
+
 ## Uso
 
-1. **Abrir la Aplicación**: Abre `index.html` en tu navegador preferido.
+1. **Abrir la Aplicación**: Abre `index.html` en tu navegador web preferido.
 
 2. **Ingreso de Texto**:
-   - **Encriptar**: Ingresa el texto en el campo de texto y haz clic en el botón "Encriptar" para convertir el texto a su versión encriptada.
-   - **Desencriptar**: Si ya tienes un texto encriptado, ingrésalo en el campo de texto y haz clic en el botón "Desencriptar" para revertirlo a su forma original.
+   - **Encriptar**: Introduce el texto en el campo de texto y haz clic en el botón "Encriptar" para obtener la versión encriptada.
+   - **Desencriptar**: Si tienes un mensaje encriptado, ingrésalo en el campo de texto y haz clic en el botón "Desencriptar" para revertirlo a su forma original.
 
 3. **Botón de Copiar**:
-   - **Copiar Texto**: Una vez que el texto esté encriptado o desencriptado, puedes hacer clic en el botón "Copiar" para copiar el resultado al portapapeles.
+   - **Copiar Texto**: Una vez que el texto esté encriptado o desencriptado, utiliza el botón "Copiar" para copiar el resultado al portapapeles.
 
-4. **Características Adicionales**:
-   - **Advertencias**: Se mostrará un aviso si intentas usar caracteres no permitidos (letras minúsculas y sin acentos).
-  
+4. **Advertencias**:
+   - **Caracteres No Permitidos**: Se mostrará un aviso si intentas encriptar texto que contiene caracteres no permitidos (debes usar solo letras minúsculas y sin acentos).
+
 ## Requisitos
-- Navegador web compatible con HTML5, CSS3, y JavaScript.
 
-
-
-
+- Navegador web compatible con HTML5, CSS3 y JavaScript.
